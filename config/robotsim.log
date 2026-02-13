@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-02-13T07:53:00.517983271Z</date>
+  <millis>1770969180517</millis>
+  <nanos>983271</nanos>
+  <sequence>0</sequence>
+  <logger>fr.tp.inf112.robotsim.SimulatorApplication</logger>
+  <level>INFO</level>
+  <class>fr.tp.inf112.robotsim.SimulatorApplication</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Starting the robot simulator...</message>
+</record>
+<record>
+  <date>2026-02-13T07:53:00.576494043Z</date>
+  <millis>1770969180576</millis>
+  <nanos>494043</nanos>
+  <sequence>1</sequence>
+  <logger>fr.tp.inf112.robotsim.SimulatorApplication</logger>
+  <level>CONFIG</level>
+  <class>fr.tp.inf112.robotsim.SimulatorApplication</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>With parameters [].</message>
+</record>
+<record>
+  <date>2026-02-13T07:53:00.582082050Z</date>
+  <millis>1770969180582</millis>
+  <nanos>82050</nanos>
+  <sequence>2</sequence>
+  <logger>fr.tp.inf112.robotsim.SimulatorApplication</logger>
+  <level>INFO</level>
+  <class>fr.tp.inf112.robotsim.SimulatorApplication</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Created factory: My Robotic Factory</message>
+</record>
+<record>
+  <date>2026-02-13T07:53:00.593619749Z</date>
+  <millis>1770969180593</millis>
+  <nanos>619749</nanos>
+  <sequence>3</sequence>
+  <logger>fr.tp.inf112.robotsim.SimulatorApplication</logger>
+  <level>INFO</level>
+  <class>fr.tp.inf112.robotsim.SimulatorApplication</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Controller initialized with persistence support</message>
+</record>
+<record>
+  <date>2026-02-13T07:53:00.594238151Z</date>
+  <millis>1770969180594</millis>
+  <nanos>238151</nanos>
+  <sequence>4</sequence>
+  <logger>fr.tp.inf112.robotsim.SimulatorApplication</logger>
+  <level>INFO</level>
+  <class>fr.tp.inf112.robotsim.SimulatorApplication</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Launching CanvasViewer...</message>
+</record>
+<record>
+  <date>2026-02-13T07:53:00.671633583Z</date>
+  <millis>1770969180671</millis>
+  <nanos>633583</nanos>
+  <sequence>5</sequence>
+  <logger>sun.awt.X11.backingStore.XToolkit</logger>
+  <level>CONFIG</level>
+  <class>sun.awt.X11.XToolkit</class>
+  <method>setBackingStoreType</method>
+  <thread>1</thread>
+  <message>The system property sun.awt.backingStore is not set, by default backingStore=NotUseful</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-02-13T07:56:53.534869414Z</date>
+  <millis>1770969413534</millis>
+  <nanos>869414</nanos>
+  <sequence>0</sequence>
+  <logger>fr.tp.inf112.robotsim.SimulatorApplication</logger>
+  <level>INFO</level>
+  <class>fr.tp.inf112.robotsim.SimulatorApplication</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Starting the robot simulator...</message>
+</record>
+<record>
+  <date>2026-02-13T07:56:53.588975394Z</date>
+  <millis>1770969413588</millis>
+  <nanos>975394</nanos>
+  <sequence>1</sequence>
+  <logger>fr.tp.inf112.robotsim.SimulatorApplication</logger>
+  <level>CONFIG</level>
+  <class>fr.tp.inf112.robotsim.SimulatorApplication</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>With parameters [].</message>
+</record>
+<record>
+  <date>2026-02-13T07:56:53.594479189Z</date>
+  <millis>1770969413594</millis>
+  <nanos>479189</nanos>
+  <sequence>2</sequence>
+  <logger>fr.tp.inf112.robotsim.SimulatorApplication</logger>
+  <level>INFO</level>
+  <class>fr.tp.inf112.robotsim.SimulatorApplication</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Created factory: My Robotic Factory</message>
+</record>
+<record>
+  <date>2026-02-13T07:56:53.606788099Z</date>
+  <millis>1770969413606</millis>
+  <nanos>788099</nanos>
+  <sequence>3</sequence>
+  <logger>fr.tp.inf112.robotsim.SimulatorApplication</logger>
+  <level>INFO</level>
+  <class>fr.tp.inf112.robotsim.SimulatorApplication</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Controller initialized with persistence support</message>
+</record>
+<record>
+  <date>2026-02-13T07:56:53.607363725Z</date>
+  <millis>1770969413607</millis>
+  <nanos>363725</nanos>
+  <sequence>4</sequence>
+  <logger>fr.tp.inf112.robotsim.SimulatorApplication</logger>
+  <level>INFO</level>
+  <class>fr.tp.inf112.robotsim.SimulatorApplication</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Launching CanvasViewer...</message>
+</record>
+<record>
+  <date>2026-02-13T07:56:53.657289213Z</date>
+  <millis>1770969413657</millis>
+  <nanos>289213</nanos>
+  <sequence>5</sequence>
+  <logger>sun.awt.X11.backingStore.XToolkit</logger>
+  <level>CONFIG</level>
+  <class>sun.awt.X11.XToolkit</class>
+  <method>setBackingStoreType</method>
+  <thread>1</thread>
+  <message>The system property sun.awt.backingStore is not set, by default backingStore=NotUseful</message>
+</record>
+</log>
