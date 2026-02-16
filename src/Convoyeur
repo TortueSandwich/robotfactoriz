@@ -1,0 +1,12 @@
+public class Convoyeur extends Component{
+
+    public Convoyeur(float longueur, float largeur, String name) {
+        super(longueur, largeur, name);
+    }
+
+    @Override
+    public String toString() {
+        return "Convoyeur " + getName() + "positionnée en " + getCoord();
+    }
+    
+}

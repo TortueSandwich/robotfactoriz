@@ -1,22 +1,22 @@
 import java.util.ArrayList;
 
 public class Factory {
-    private String name;
-    private ArrayList<Robot> robots;
+    final private String name;
+    private ArrayList<Component> components;
 
     public Factory(String name) {
         this.name = name;
-        this.robots = new ArrayList<>();
+        this.components = new ArrayList<>();
     }
 
-    public boolean addRobot(Robot r) {
-        return robots.add(r);
+    public boolean addComponent(Component c) {
+        return components.add(c);
     }
 
     /** parcourir la liste des robots pour vérifier qu'aucun d'entre eux n'a le même nom que celui passé en paramètre */
-    private boolean checkRobotName(String name) {
-        for (Robot robot : robots) {
-            if (robot.getName().equals(name)) {
+    private boolean checkComponentName(String name) {
+        for (Component component : components) {
+            if (component.getName().equals(name)) {
                 return true;
             }
         }
@@ -25,9 +25,9 @@ public class Factory {
 
     public void printToConsole() {
         System.out.println("Factory: " + name);
-        System.out.println("Robots:");
-        for (Robot robot : robots) {
-            System.out.println("  - " + robot.getName());
+        System.out.println("Components:");
+        for (Component c : components) {
+            System.out.println(c);
         }
     }
 }
