@@ -1,20 +1,55 @@
-@startuml Truc
+@startuml factory_uml
 
-class Usine
-class Robot  {
-    speed
-    goto(List<Position>) : Contourne les obstacles
+class SimulatorApplication
+class SimulatorController
+SimulatorController <|.. CanvasViewerController
+
+class Factory
+class ChargingStation {
+    double chargingRate
+    boolean isOccupied
+    getChargingRate()
 }
 
-class StationRecharge
+class Door {
+    boolean isOpen
+}
+Door <|.. Component
 
-class Salle
-class Porte
+interface Canvas
+class Factory {
+    Set<Observer> observers
+    boolean simulationStarted
+}
+Factory <|-- Canvas
+Factory <|.. Observable
+Factory -> Robot
+Factory -> Room
+Factory -> ChargingStations
 
-class AirDeTravail
 class Machine
+Machine <|.. Component
 
-class Convoyeur
+class ProductionArea
+ProductionArea -> Machine
+ProductionArea <|.. Component 
 
+class Robot {
+   private double speed;
+   private double energy;
+   private double minEnergyLevel;
+   private List<Component> componentsToVisit;
+   private int currentTargetIndex;
+}
 
-@end
+BasicRectangleShape <|.. RectangleShape
+BasicOvalShape <|.. OvalShape
+
+Robot <|.. Component
+interface Component 
+Component <|.. Figure
+SimulatorController -> Factory
+SimulatorController -> CanvasPersistenceManager 
+
+ChargingStation <|.. Component
+@enduml
