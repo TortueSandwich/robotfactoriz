@@ -150,3 +150,79 @@
   <message>The system property sun.awt.backingStore is not set, by default backingStore=NotUseful</message>
 </record>
 </log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-02-13T14:58:41.116510145Z</date>
+  <millis>1770994721116</millis>
+  <nanos>510145</nanos>
+  <sequence>0</sequence>
+  <logger>fr.tp.inf112.robotsim.SimulatorApplication</logger>
+  <level>INFO</level>
+  <class>fr.tp.inf112.robotsim.SimulatorApplication</class>
+  <method>main</method>
+  <thread>3</thread>
+  <message>Starting the robot simulator...</message>
+</record>
+<record>
+  <date>2026-02-13T14:58:41.155016686Z</date>
+  <millis>1770994721155</millis>
+  <nanos>16686</nanos>
+  <sequence>1</sequence>
+  <logger>fr.tp.inf112.robotsim.SimulatorApplication</logger>
+  <level>CONFIG</level>
+  <class>fr.tp.inf112.robotsim.SimulatorApplication</class>
+  <method>main</method>
+  <thread>3</thread>
+  <message>With parameters [].</message>
+</record>
+<record>
+  <date>2026-02-13T14:58:41.158829207Z</date>
+  <millis>1770994721158</millis>
+  <nanos>829207</nanos>
+  <sequence>2</sequence>
+  <logger>fr.tp.inf112.robotsim.SimulatorApplication</logger>
+  <level>INFO</level>
+  <class>fr.tp.inf112.robotsim.SimulatorApplication</class>
+  <method>main</method>
+  <thread>3</thread>
+  <message>Created factory: My Robotic Factory</message>
+</record>
+<record>
+  <date>2026-02-13T14:58:41.170237947Z</date>
+  <millis>1770994721170</millis>
+  <nanos>237947</nanos>
+  <sequence>3</sequence>
+  <logger>fr.tp.inf112.robotsim.SimulatorApplication</logger>
+  <level>INFO</level>
+  <class>fr.tp.inf112.robotsim.SimulatorApplication</class>
+  <method>main</method>
+  <thread>3</thread>
+  <message>Controller initialized with persistence support</message>
+</record>
+<record>
+  <date>2026-02-13T14:58:41.170824388Z</date>
+  <millis>1770994721170</millis>
+  <nanos>824388</nanos>
+  <sequence>4</sequence>
+  <logger>fr.tp.inf112.robotsim.SimulatorApplication</logger>
+  <level>INFO</level>
+  <class>fr.tp.inf112.robotsim.SimulatorApplication</class>
+  <method>main</method>
+  <thread>3</thread>
+  <message>Launching CanvasViewer...</message>
+</record>
+<record>
+  <date>2026-02-13T14:58:41.223322944Z</date>
+  <millis>1770994721223</millis>
+  <nanos>322944</nanos>
+  <sequence>5</sequence>
+  <logger>sun.awt.X11.backingStore.XToolkit</logger>
+  <level>CONFIG</level>
+  <class>sun.awt.X11.XToolkit</class>
+  <method>setBackingStoreType</method>
+  <thread>3</thread>
+  <message>The system property sun.awt.backingStore is not set, by default backingStore=NotUseful</message>
+</record>
+</log>

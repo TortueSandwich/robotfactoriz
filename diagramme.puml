@@ -1,0 +1,20 @@
+@startuml Truc
+
+class Usine
+class Robot  {
+    speed
+    goto(List<Position>) : Contourne les obstacles
+}
+
+class StationRecharge
+
+class Salle
+class Porte
+
+class AirDeTravail
+class Machine
+
+class Convoyeur
+
+
+@end
