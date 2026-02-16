@@ -1,3 +1,8 @@
+package projet;
+
+import fr.tp.inf112.projects.canvas.model.RectangleShape;
+import fr.tp.inf112.projects.canvas.model.Shape;
+
 public class Robot extends Component {
     private double speed;
 
@@ -17,6 +22,20 @@ public class Robot extends Component {
             return "Je m'appelle Anonyme et j'avance à " + speed + " km/h.";
         }
         return "Je m'appelle " + getName() + " et j'avance à " + speed + " km/h et je suis en " + getCoord();
+    }
+
+    @Override
+    public Shape getShape() {
+        return new RectangleShape() {
+            @Override
+            public int getHeight() {
+                return Robot.this.getHeightInPixels();
+            }
+            @Override
+            public int getWidth() {
+                return Robot.this.getWidthInPixels();
+            }
+        };
     }
 
 

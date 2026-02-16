@@ -1,3 +1,5 @@
+package projet;
+
 import java.util.ArrayList;
 
 public class Factory {

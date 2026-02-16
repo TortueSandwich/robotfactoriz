@@ -1,3 +1,5 @@
+package projet;
+
 public class Convoyeur extends Component{
 
     public Convoyeur(float longueur, float largeur, String name) {

@@ -1,3 +1,5 @@
+package projet;
+
 import fr.tp.inf112.projects.canvas.model.Figure;
 
 /**
@@ -17,7 +19,7 @@ public abstract class Component implements Figure {
         this.name = name;
     }
 
-    public void set_coord(float x, float y){
+    public void set_coord(int x, int y){
         coord = new Coord(x,y);
     }
 
@@ -35,6 +37,23 @@ public abstract class Component implements Figure {
 
     public String getName() {
         return name;
+    }
+
+    @Override
+    public int getxCoordinate() {
+        return coord.x();
+    }
+
+    @Override
+    public int getyCoordinate() {
+        return coord.y();
+    }
+
+    public int getWidthInPixels(){
+        return (int)(this.largeur*50.0);
+    }
+    public int getHeightInPixels(){
+        return (int)(this.longueur*50.0);
     }
     
 }

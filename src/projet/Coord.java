@@ -1,4 +1,6 @@
-public record Coord(float x, float y) {
+package projet;
+
+public record Coord(int x, int y) {
 
     @Override
     public final String toString() {
